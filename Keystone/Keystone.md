@@ -3,6 +3,8 @@ _Thông thường ở các phiên bản Openstack trước các **Service** Open
 ### Keystone là gì
 Keystone là một module trong openstack, **nhiệm vụ chính là để xác thực người dùng và quản lý các module khác** trong openstack.
 
+![Keystone_function](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/keystone_f.png)
+
 ### Chức năng
 Từ định nghĩa phía trên thì có thể nhận thấy keystone có hai chức năng chính bao gồm **Quản lý người dùng, Quản lý các module khác**.
 
@@ -12,6 +14,7 @@ Từ định nghĩa phía trên thì có thể nhận thấy keystone có hai ch
 ```shell
 openstack catalog list
 ```
+![Catalog](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/keystone_f.png)
 
 ### Các khái niệm cơ bản
 
@@ -78,6 +81,8 @@ openstack catalog list
 
 User muốn tạo máy ảo
 
+![Create_vm](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/keystone_create_vm.jpg)
+
 1. User sẽ xác thực với keystone
 2. Keystone sẽ xác thực người dùng và trả cho người dùng 1 token và catalog service
 3. Người dùng sử dụng token này để yêu cầu tạo VM đến endpoint Nova service
@@ -90,6 +95,9 @@ User muốn tạo máy ảo
 
 **Ví dụ 2:**
 Quá trình xác thực trong Openstack
+
+![Keystoneflow](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/keystone.png)
+
 
 1. User gửi credentials cho keystone. Nếu thành công, Keystone sẽ trả lại cho User 1 token và một catalog endpoint các service.
 2. User dùng token này để xác định với keystone các project mà mình sở hữu, Keystone sẽ trả về 1 danh sách các project mà user sở hữu.
