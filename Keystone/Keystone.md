@@ -111,7 +111,9 @@ Quá trình xác thực trong Openstack
 6. Service thực hiện request.
 7. Sevice trả về thông báo tạo vm thành công cho user
 
-** Thực hành
+## Thực hành
+
+[Note thực hành]: https://github.com/huytm/Openstack-Queen-reseach/blob/master/Keystone/Practice.md
 
 https://www.cnblogs.com/charles1ee/p/6293387.html
 https://docs.openstack.org/security-guide/identity/tokens.html
