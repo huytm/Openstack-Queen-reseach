@@ -1,11 +1,11 @@
 _Thông thường ở các phiên bản Openstack trước các **Service** Openstack như **Keystone**, **Nova**, **Glance**, **Neutron..** thường được gọi là các **Project**. Để tránh nhầm lẫn, trong ghi chú này các **service** sẽ được gọi là **module** trong openstack để tránh nhầm lẫn với khái niệm project trong keystone_
 
-### Keystone là gì
+## Keystone là gì ?
 Keystone là một module trong openstack, **nhiệm vụ chính là để xác thực người dùng và quản lý các module khác** trong openstack.
 
 ![Keystone_function](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/keystone_f.png)
 
-### Chức năng
+## Chức năng
 Từ định nghĩa phía trên thì có thể nhận thấy keystone có hai chức năng chính bao gồm **Quản lý người dùng, Quản lý các module khác**.
 
 - Quản lý người dùng: Xác thực danh tính và quyền hạn của người dùng
@@ -14,9 +14,9 @@ Từ định nghĩa phía trên thì có thể nhận thấy keystone có hai ch
 ```shell
 openstack catalog list
 ```
-![Catalog](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/keystone_f.png)
+![Catalog](https://raw.githubusercontent.com/huytm/Openstack-Queen-reseach/master/Keystone/image/catalog.png)
 
-### Các khái niệm cơ bản
+## Các khái niệm cơ bản
 
 1. User: User có thể là một cá nhân (con người) sử dụng openstack hoặc một service (module) khác - vì bản thân mỗi service đều có một user riêng.
 
