@@ -113,7 +113,7 @@ Quá trình xác thực trong Openstack
 
 ## Thực hành
 
-[[Note thực hành](../master/Keystone/Practice.md)
+[Note thực hành](./Practice.md)
 
 
 ## Tài liệu tham khảo
