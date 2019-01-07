@@ -113,8 +113,10 @@ Quá trình xác thực trong Openstack
 
 ## Thực hành
 
-[Note thực hành]: https://github.com/huytm/Openstack-Queen-reseach/blob/master/Keystone/Practice.md
+[[Note thực hành](../master/Keystone/Practice.md)
 
+
+## Tài liệu tham khảo
 https://www.cnblogs.com/charles1ee/p/6293387.html
 https://docs.openstack.org/security-guide/identity/tokens.html
 https://docs.openstack.org/keystone/pike/getting-started/architecture.html
