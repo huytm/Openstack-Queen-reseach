@@ -142,6 +142,7 @@ MariaDB [keystone]> select * from service;
 File log của keystone nằm ở `/var/log/keystone/keystone.log`
 
 **Ánh xạ việc tạo, sửa, xóa user vào file log**
+
 _Tạo user_ method **PUT**
 ```
 2019-01-07 23:26:30.159 3672 INFO keystone.common.wsgi [req-823e54b1-ee6c-4b25-89ea-4515b96f69fe 21b515c1a0b04576bbf0a66dd89e5aec ad27d3d1462b45fa94ff42c7d68d352a - default default] PUT http://10.10.10.175:5000/v3/projects/1352f79aecb240afa531922e8771cb20/users/ee398851a436479cadac9690180bd94e/roles/abeec726dac143c885c7e8a757db805c
@@ -159,6 +160,7 @@ _Xóa user_ method **DELETE**
 2019-01-07 23:38:10.546 3670 INFO keystone.common.wsgi [req-967b269d-c96e-45a9-bbdf-6fab6c3506f4 21b515c1a0b04576bbf0a66dd89e5aec ad27d3d1462b45fa94ff42c7d68d352a - default default] DELETE http://10.10.10.175:5000/v3/users/ee398851a436479cadac9690180bd94e
 ```
 **Ánh xạ việc tạo, sửa, xóa project vào file log**
+
 _Tạo project_ method **PUT**
 ```
 2019-01-07 23:26:30.159 3672 INFO keystone.common.wsgi [req-823e54b1-ee6c-4b25-89ea-4515b96f69fe 21b515c1a0b04576bbf0a66dd89e5aec ad27d3d1462b45fa94ff42c7d68d352a - default default] PUT http://10.10.10.175:5000/v3/projects/1352f79aecb240afa531922e8771cb20/users/ee398851a436479cadac9690180bd94e/roles/abeec726dac143c885c7e8a757db805c
